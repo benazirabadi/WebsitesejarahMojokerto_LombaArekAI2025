@@ -1,0 +1,345 @@
+/* ============================================
+    CSS DISAMAKAN: Palet Vintage Hijau Zaitun & Krem Muda
+    ============================================
+*/
+    
+/* Palet Warna VINTAGE (Konsisten):
+    - Latar Belakang (60%): #FDFDDF (Krem Muda)
+    - Teks Utama & Heading (30%): #6B8E23 (Hijau Zaitun)
+    - Aksen/CTA (10%): #D2B48C (Cokelat Muda/Biscuit)
+    - Teks Body: #333333 (Dark Grey)
+*/
+    
+/* ---------- Reset & Base ---------- */
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body { 
+    font-family: 'Playfair Display', sans-serif;
+    background: #FDFDDF; /* Krem Muda */
+    color:#333333; /* Dark Grey untuk keterbacaan */
+    line-height:1.6; 
+    overflow-x: hidden; /* Mencegah scroll horizontal di mobile */
+}
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #6B8E23; /* Hijau Zaitun */
+}
+.section { padding: 90px 5%; max-width: 1200px; margin: 0 auto; }
+
+
+/* ---------- NAV (RESPONSIVE) ---------- */
+nav {
+    position:fixed; top:0; left:0; right:0;
+    background: rgba(253, 253, 223, 0.98); 
+    border-bottom: 2px solid #E0E0C0;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:1rem 5%;
+    z-index:1000;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+.logo { 
+    font-weight:700; 
+    letter-spacing:2px;
+    font-size:1.4rem;
+    color: #6B8E23;
+    font-family: 'Playfair Display', serif;
+}
+nav ul { 
+    list-style:none; 
+    display:flex; 
+    gap:1.75rem; 
+    align-items:center; 
+}
+nav a { 
+    color:#6B8E23; 
+    text-decoration:none; 
+    font-weight:500; 
+    font-size:1rem; 
+    opacity:0.8; 
+    position: relative;
+    transition: color 0.3s;
+}
+nav a::after { content: ''; position: absolute; bottom: -5px; left: 0; width: 0; height: 2px; background: #D2B48C; transition: width 0.3s ease; }
+nav a:hover { color:#6B8E23; opacity: 1; }
+nav a:hover::after { width: 100%; }
+
+/* Tombol Hamburger (Hanya Tampil di Mobile) */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6B8E23;
+    border: none; /* Tambahkan ini agar tidak ada border default button */
+    background: transparent;
+}
+
+/* =================================================== */
+/* MODIFIKASI HANYA PADA MEDIA QUERY NAVIGASI MOBILE */
+/* =================================================== */
+
+@media (max-width: 900px) {
+    
+    /* FIX: Pastikan Logo memiliki Z-index tertinggi agar selalu terlihat */
+    .logo { z-index: 1003; } 
+    .menu-toggle { z-index: 1002; display: block; }
+
+    nav ul {
+        /* Default Styles: Menu Navigasi disembunyikan di luar layar */
+        display: none; 
+        flex-direction: column;
+        
+        /* PERUBAHAN KRITIS: Posisi Menu Menjadi Sidebar */
+        position: fixed; 
+        
+        /* FIX 1: Mulai menu 60px di bawah navbar */
+        top: 60px; 
+        
+        right: 0; 
+        left: unset; 
+        
+        width: 50%;
+        
+        /* FIX 2: Tinggi sisa layar (Total 100vh dikurangi 60px navbar) */
+        height: calc(100vh - 60px); 
+        
+        background: rgba(253, 253, 223, 0.98);
+        border-left: 1px solid #E0E0C0; 
+        
+        
+        /* FIX 3: Padding internal dikurangi karena 'top' sudah memberi jarak */
+        padding: 20px 0 15px 0; 
+        gap: 5px; 
+        z-index: 990;
+        
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-out;
+    }
+    
+    /* Active State: Menu Muncul */
+    nav ul.active {
+        transform: translateX(0);
+        display: flex;
+    }
+    
+    nav ul li {
+        width: 100%; /* FIX: Lebar LI harus 100% dari UL */
+        text-align: center;
+        padding: 5px 0; /* Padding disamakan */
+        
+    }
+    nav ul li:last-child { border-bottom: none; }
+    
+    nav a {
+        font-size: 1rem;
+        padding: 8px 5%; /* Padding tautan di dalam LI */
+        display: block;
+        width: 100%;
+    }
+    
+    .menu-toggle {
+        display: block; 
+    }
+
+    /* Perbaikan agar logo tidak tertutup menu */
+    nav { align-items: center; } 
+}
+
+@media (max-width: 768px) {
+    /* Di layar yang lebih kecil, Navbar menjadi fixed dan tidak menumpuk */
+    nav { flex-direction: row; }
+}
+    
+/* ---------- HERO (RESPONSIVE) ---------- */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    background: linear-gradient(rgba(210, 180, 140, 0.4), rgba(210, 180, 140, 0.7)),
+              url('../img/mjk.jpeg') center/cover no-repeat fixed;
+    background-size: cover;
+    color: #FDFDDF;
+    text-align: center;
+    margin-top: 0; 
+}
+.hero h1 { 
+    font-size: 3.5rem;
+    margin-bottom: 0.75rem; 
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    letter-spacing: 1.5px;
+    color: #FDFDDF; 
+}
+.hero p { 
+    color: #FDFDDF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 70vh; /* Tinggi sedikit dikurangi di mobile */
+    }
+    .hero h1 {
+        font-size: 2.5rem; /* Ukuran h1 dikecilkan */
+    }
+    .hero p {
+        font-size: 1rem; /* Ukuran paragraf dikecilkan */
+    }
+}
+
+
+/* ---------- GALERI ESTETIK (CSS Grid yang Responsif) ---------- */
+.gallery-section {
+    padding: 90px 5%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    background: #FDFDDF; 
+    text-align: center;
+}
+.section-header {
+    margin-bottom: 40px;
+}
+.section-header h2 {
+    font-size: 2.5rem; 
+    color: #6B8E23; 
+    margin-bottom: 10px; 
+}
+.section-header .tagline {
+    font-style: italic;
+    color: #228B22; 
+    font-size: 1.05em; 
+}
+
+/* GRID UTAMA (Modern Layout) - Penyesuaian Responsif */
+.photo-grid {
+    display: grid;
+    /* Membuat kolom responsif: minimal 200px per kolom, auto-fit untuk mengisi ruang. */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-auto-rows: minmax(200px, auto); /* Tinggi baris minimal 200px */
+    gap: 20px;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* Item Galeri (Vintage Effect) */
+.photo-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    border: 1px solid #E0E0C0;
+    /* Memastikan item yang tidak memiliki w/h-span tetap memiliki proporsi yang baik */
+    min-height: 200px; 
+}
+
+/* Hover effect */
+.photo-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(30%) saturate(120%) contrast(105%) brightness(95%); 
+    transition: filter 0.5s ease, transform 0.5s ease; 
+}
+
+.photo-item:hover img {
+    filter: none;
+    transform: scale(1.03);
+}
+
+/* Caption Overlay */
+.caption-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    background: rgba(107, 142, 35, 0.88); /* Hijau Zaitun overlay lebih pekat */
+    color: #FDFDDF;
+    text-align: left;
+    font-style: italic;
+    transform: translateY(100%);
+    transition: all 0.4s ease; 
+    z-index: 20; 
+}
+.photo-item:hover .caption-overlay {
+    opacity: 1; 
+    transform: translateY(0);
+}
+.caption-overlay h4 {
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FDFDDF; 
+}
+.caption-overlay p {
+    font-size: 0.85em;
+    color: #FDFDDF;
+}
+
+/* Penyesuaian Layout Grid Asimetris (Span Classes) */
+.w-2 { grid-column: span 2; } 
+.h-2 { grid-row: span 2; } 
+.h-3 { grid-row: span 3; } 
+.w-2.h-2 { grid-column: span 2; grid-row: span 2; }
+
+
+/* Responsive Adjustments untuk Galeri */
+@media (max-width: 768px) {
+    .gallery-section {
+        padding: 50px 5%; /* Padding lebih kecil di mobile */
+    }
+    .section-header h2 {
+        font-size: 2rem; 
+    }
+    .photo-grid {
+        grid-template-columns: 1fr; /* HANYA 1 KOLOM DI MOBILE */
+        grid-auto-rows: minmax(300px, auto); /* Tinggi baris lebih besar agar gambar tidak terlalu kecil */
+        gap: 15px;
+    }
+    /* Menonaktifkan span classes di mobile agar semua gambar 1 kolom penuh */
+    .w-2, .h-2, .h-3, .w-2.h-2 { 
+        grid-column: span 1 !important; 
+        grid-row: span 1 !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .photo-grid {
+        /* Kembali ke 2 atau 3 kolom di tablet */
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+        grid-auto-rows: minmax(180px, auto);
+        gap: 15px;
+    }
+    /* Item lebar 2 kolom tetap dipertahankan, tapi ukurannya menyesuaikan grid */
+}
+
+/* ---------- FOOTER ---------- */
+footer { 
+    background:#6B8E23;
+    color:#FDFDDF;
+    text-align:center; 
+    padding:1.5rem 2%;
+    border-top:8px solid #D2B48C;
+    font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+    footer {
+        padding: 1rem 5%;
+        font-size: 0.8rem;
+    }
+}

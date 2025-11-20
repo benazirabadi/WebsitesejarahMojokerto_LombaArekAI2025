@@ -1,0 +1,276 @@
+/* ============================================
+    CSS (style.css) - Estetik Vintage Hijau Zaitun & Krem Muda
+    ============================================
+*/
+:root {
+    /* Perubahan Warna Utama ke Nuansa Hijau Zaitun & Krem Muda */
+    --color-light-cream: #FDFDDF;      /* Latar Belakang (Krem Muda) */
+    --color-olive-green: #6B8E23;      /* Hijau Zaitun (Warna Utama Heading/Aksen) */
+    --color-tan: #D2B48C;              /* Cokelat Muda (Aksen/Frame/CTA) */
+    --color-dark-text: #333333;        /* Dark Grey (Teks Body) */
+    --color-dark-accent: #228B22;      /* Hijau Hutan (Kontras/Sub-title) */
+    --color-section-bg: #F5F5E0;       /* Background Section (Krem Sedikit Lebih Gelap) */
+}
+
+/* ---------- Reset & Base ---------- */
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: 'Playfair Display', sans-serif;
+    background: var(--color-light-cream);
+    color: var(--color-dark-text); 
+    line-height: 1.6;
+    padding-top: 80px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-olive-green); /* Hijau Zaitun */
+}
+.section { padding: 90px 5%; max-width: 1200px; margin: 0 auto; }
+
+/* [2. NAVIGASI BAR] */
+nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    background: rgba(253, 253, 223, 0.95); /* Krem Muda Transparan */
+    border-bottom: 2px solid #E0E0C0; /* Warna batas yang lebih lembut */
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1rem 5%;
+    z-index: 1000;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+.logo { font-weight:700; letter-spacing:2px; font-size:1.4rem; color: var(--color-olive-green); }
+nav ul { list-style:none; display:flex; gap:1.75rem; align-items:center; }
+nav a { color:var(--color-dark-text); text-decoration:none; font-weight:500; font-size:1rem; opacity:0.8; position: relative; transition: color 0.3s; }
+nav a::after { content: ''; position: absolute; bottom: -5px; left: 0; width: 0; height: 2px; background: var(--color-tan); transition: width 0.3s ease; }
+nav a:hover { color:var(--color-olive-green); }
+nav a:hover::after { width: 100%; }
+
+/* Burger Menu (CSS untuk Mobile) */
+.burger { display: none; cursor: pointer; }
+.burger div { width: 25px; height: 3px; background-color: var(--color-olive-green); margin: 5px; transition: all 0.3s ease; }
+
+/* >>> BURGER MENU ANIMASI X (Perbaikan) <<< */
+.burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.burger.toggle .line2 {
+    opacity: 0;
+}
+.burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+/* >>> AKHIR PERBAIKAN: BURGER MENU ANIMASI X <<< */
+
+@media (max-width: 768px) {
+    .nav-links { 
+        position: absolute; right: 0; height: 92vh; top: 8vh; 
+        background-color: var(--color-light-cream); border-left: 1px solid #E0E0C0; 
+        display: flex; flex-direction: column; align-items: center; 
+        width: 50%; transform: translateX(100%); transition: transform 0.5s ease-in; z-index: 990; 
+    }
+    .nav-links a { color: var(--color-olive-green); }
+    .nav-links.nav-active { transform: translateX(0%); }
+    .burger { display: block; }
+}
+
+
+/* [3. HEADER / HERO SECTION] */
+.hero {
+    height:95vh; display:flex; align-items:center; justify-content:center; padding:0 5%;
+    /* Overlay Cokelat Muda (Tan) */
+    background: linear-gradient(rgba(210, 180, 140, 0.4), rgba(210, 180, 140, 0.7)),
+      url('../img/mjk.jpeg') center/cover no-repeat fixed;
+    color:#fff; text-align:center;
+}
+.hero-content { max-width:900px; padding:2.5rem; }
+.hero h1 { font-size:3.5rem; margin-bottom:0.75rem; text-shadow: 0 2px 5px rgba(0,0,0,0.5); letter-spacing:1.5px; color: var(--color-light-cream); }
+.hero p { 
+    margin-bottom:2rem; font-size:1.2rem; 
+    color:var(--color-light-cream); 
+    font-weight: 300; 
+}
+.cta {
+    display:inline-block; background:var(--color-tan); color:#333333; 
+    padding:0.8rem 1.6rem; border-radius:30px; text-decoration:none;
+    font-weight:700; font-size:1.05rem; letter-spacing:1px;
+    box-shadow: 0 8px 15px rgba(210, 180, 140, 0.4);
+    transition: all .3s ease;
+}
+.cta:hover { transform:translateY(-5px); box-shadow: 0 12px 20px rgba(210, 180, 140, 0.6); background: #E0C7A9; }
+
+
+/* [4. KONTEN UTAMA & INTRO BOX] */
+.main-content { max-width: 1100px; margin: 0 auto; padding: 0 5%; }
+.intro-box {
+    background: var(--color-light-cream); padding: 50px; margin-top: -120px; 
+    position: relative; z-index: 10; border: 8px double var(--color-olive-green);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Shadow lebih ringan dari sebelumnya */
+    text-align: center;
+}
+.intro-box h2 { color: var(--color-olive-green); margin-bottom: 20px; border-bottom: 2px solid var(--color-tan); padding-bottom: 10px; font-size: 2.8rem; }
+.intro-box p { color: #555; font-size: 1.25rem; font-weight: 300;}
+
+/* [5. SEKSI ADAT & KESENIAN] */
+.tradisi-adat, .kesenian-khas { padding: 60px 0; margin-top: 60px; }
+.tradisi-adat h3, .kesenian-khas h3 { 
+    color: var(--color-olive-green); font-size: 2.8rem; margin-bottom: 40px; text-align: center;
+    border-bottom: 3px solid var(--color-tan); padding-bottom: 10px;
+}
+#adat-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; }
+.card-adat {
+    flex-basis: 300px; background: #fff; /* Card background putih/krem cerah */
+    padding: 35px; border: 3px solid var(--color-olive-green); 
+    box-shadow: 10px 10px 0px -2px var(--color-tan); 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+}
+.card-adat::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 2px dashed #999; margin: 15px; pointer-events: none; }
+.card-adat:hover { transform: translateY(-8px) rotate(-1deg); box-shadow: 15px 15px 0px -2px var(--color-olive-green); }
+.card-adat h4 { color: var(--color-dark-accent); font-size: 1.8rem; margin-bottom: 15px; border-bottom: 1px solid var(--color-tan); padding-bottom: 5px; }
+.card-adat i { color: var(--color-tan); margin-right: 15px; font-size: 1.5em; } 
+
+#kesenian-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.kesenian-item { background: var(--color-section-bg); border: 1px solid var(--color-tan); padding: 20px; box-shadow: 5px 5px 0px var(--color-tan); transition: all 0.3s ease; }
+.kesenian-item:hover { transform: translateY(-5px); box-shadow: 8px 8px 0px var(--color-olive-green); }
+.kesenian-item h4 { color: var(--color-olive-green); font-size: 1.5rem; margin-bottom: 10px; }
+.kesenian-item .icon-wrapper { float: left; margin-right: 15px; font-size: 2em; color: var(--color-dark-accent); }
+
+/* [6. SEKSI WARISAN - Disesuaikan dengan Palet Hijau Zaitun] */
+.warisan-turun-temurun { 
+    padding: 80px 0; 
+    background: var(--color-section-bg); /* Krem sedikit lebih gelap */
+    text-align: center; 
+    border-top: 1px solid var(--color-tan); 
+}
+.warisan-turun-temurun h3 { color: var(--color-olive-green); font-size: 2.8rem; margin-bottom: 50px; } 
+#warisan-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    gap: 40px; 
+    max-width: 1050px; margin: 0 auto;
+}
+
+/* DESAIN KARTU BARU UNTUK WARISAN (Mirip Screenshot) */
+.warisan-item {
+    text-align: left; 
+    background: #86663d; /* Latar belakang Hijau Zaitun Gelap */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5); 
+    transition: transform 0.4s; 
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    max-width: 450px; 
+    justify-self: center; 
+}
+.warisan-item:hover { transform: translateY(-5px); }
+
+.warisan-item .img-box {
+    height: 200px; 
+    overflow: hidden;
+    position: relative;
+}
+.warisan-item img {
+    width: 100%; height: 100%; object-fit: cover;
+    filter: sepia(30%) saturate(120%) contrast(105%) brightness(95%); /* Filter Vintage */
+    transition: transform 0.5s ease;
+}
+.warisan-item:hover img {
+    transform: scale(1.05); 
+    filter: sepia(0%) grayscale(0%) contrast(100%) brightness(100%); /* Normal saat hover */
+}
+.img-box .icon-placeholder {
+    position: absolute; top: 10px; left: 10px;
+    color: var(--color-light-cream);
+    background: #D2B48C; /* Hijau Zaitun Semi Transparan */
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.warisan-content {
+    padding: 20px 25px;
+    color: var(--color-light-cream);
+}
+.warisan-content h4 { 
+    color: var(--color-tan); /* Aksen Cokelat Muda untuk Judul */
+    font-size: 1.8rem; 
+    margin-bottom: 10px; 
+    text-shadow: none;
+} 
+.warisan-content p { color: var(--color-light-cream); font-size: 1rem; } 
+
+/* [7. SEKSI FILOSOFI] */
+.filosofi-box {
+    background: var(--color-tan); /* Menggunakan Cokelat Muda (Tan) */
+    color: var(--color-dark-text); 
+    padding: 70px; 
+    margin: 80px 0; 
+    text-align: center; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    position: relative; 
+}
+.filosofi-box h3 { font-size: 3.2rem; margin-bottom: 25px; color: var(--color-olive-green); } 
+.filosofi-box p { font-size: 1.25rem; font-style: italic; font-weight: 300; margin-bottom: 20px; color: var(--color-dark-text); }
+
+/* [8. PEMISAH ANTIK] */
+.vintage-divider {
+    border: none; height: 3px; 
+    background: linear-gradient(to right, var(--color-light-cream), var(--color-tan), var(--color-olive-green), var(--color-tan), var(--color-light-cream));
+    margin: 50px auto; max-width: 80%; position: relative;
+}
+.vintage-divider::before {
+    content: '\273F'; font-family: 'Playfair Display', serif; font-size: 1.8rem;
+    color: var(--color-olive-green); position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%); background: var(--color-light-cream);
+    padding: 0 15px; z-index: 5;
+}
+
+/* [9. FOOTER] */
+footer {
+    background:var(--color-olive-green); color:var(--color-light-cream); 
+    text-align:center; padding:1.5rem 2%;
+    border-top:8px solid var(--color-tan); font-size: 0.9rem;
+}
+
+/* [10. ANIMASI JAVASCRIPT (Reveal) ] */
+.reveal-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.reveal-right {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.reveal-up.active, .reveal-left.active, .reveal-right.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+/* Penundaan (Delay) */
+.delay-0 { transition-delay: 0s; }
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+.delay-6 { transition-delay: 0.6s; }
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+     .hero h1 { font-size: 2.5rem; }
+     #warisan-container { grid-template-columns: 1fr; }
+     .intro-box { margin-top: -80px; padding: 30px; }
+     .filosofi-box { padding: 40px; }
+     .warisan-item img { height: 200px; }
+     #kesenian-container { grid-template-columns: 1fr; }
+     .card-adat { flex-basis: 100%; }
+     .burger { display: block; }
+}
