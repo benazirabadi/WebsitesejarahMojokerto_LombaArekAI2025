@@ -1,0 +1,144 @@
+[
+    {
+        "id": "gajahmada",
+        "type": "nyata",
+        "name": "Patih Gajah Mada",
+        "alias": "Mahapatih Amukti Palapa",
+        "era": "Majapahit (Abad ke-14)",
+        "photo": "img/pgajahmada.jpeg",
+        "quote": "\"Lamun huwus kalah Nusantara isun amukti palapa...\"",
+        "description": "Mahapatih paling terkenal dalam sejarah Majapahit. Arsitek utama ekspansi Majapahit yang menyatukan Nusantara di bawah Sumpah Palapa.",
+        "fullStory": "Gajah Mada adalah sosok sentral yang diangkat oleh Ratu Tribhuwana. Ia dikenal memiliki kecerdasan militer dan politik yang luar biasa, memimpin kampanye militer yang sukses di seluruh Asia Tenggara. Pusat komando strategisnya berakar kuat di wilayah Trowulan (Mojokerto), menjadikannya pilar tak tergantikan dari imperium maritim Majapahit. Kisahnya abadi sebagai simbol persatuan nasional.",
+        "footnote": "Sumber: Negarakertagama, Kakawin Bharatayuddha"
+    },
+    {
+        "id": "hayamwuruk",
+        "type": "nyata",
+        "name": "Sri Rajasanagara",
+        "alias": "Raja Hayam Wuruk",
+        "era": "Raja Ke-4 Majapahit (1350–1389 M)",
+        "photo": "img/hayamwuruk.jpeg",
+        "quote": "Masa keemasan politik, budaya, dan militer Majapahit.",
+        "description": "Cucu dari Raden Wijaya. Masa pemerintahannya, didampingi Gajah Mada, adalah puncak kejayaan Majapahit.",
+        "fullStory": "Pemerintahan Hayam Wuruk ditandai dengan kemakmuran dan stabilitas budaya. Ia bukan hanya seorang pemimpin militer tetapi juga seorang patron seni dan sastra. Naskah Negarakertagama ditulis pada masanya, mengabadikan kemegahan Majapahit dan tradisi keagamaan Hindu-Buddha. Ia rutin melakukan perjalanan keliling kerajaan, menunjukkan perhatian langsung terhadap kesejahteraan rakyatnya di wilayah Mojokerto dan sekitarnya.",
+        "footnote": "Sumber: Negarakertagama, Prasasti Waringin Pitu"
+    },
+    {
+        "id": "radenwijaya",
+        "type": "nyata",
+        "name": "Raden Wijaya",
+        "alias": "Pendiri Majapahit",
+        "era": "Raja Pertama Majapahit (1293–1309 M)",
+        "photo": "img/radenwijaya.jpeg",
+        "quote": "Pendiri kerajaan terbesar di Nusantara, dengan kecerdasan diplomatik yang tajam.",
+        "description": "Tokoh yang memanfaatkan invasi Mongol untuk mendirikan kerajaan besar di Trowulan, menunjukkan kemampuan strategis tingkat tinggi.",
+        "fullStory": "Raden Wijaya, menantu Raja Kertanagara (Singasari), menghadapi tekanan berat setelah kejatuhan Singasari. Dengan strategi politik yang licik, ia bersekutu dengan pasukan Mongol yang datang untuk menuntut balas. Setelah mengalahkan musuh utamanya, ia kemudian berbalik menyerang dan mengusir pasukan Mongol, mendirikan Majapahit di atas reruntuhan. Lokasi di Trowulan menjadi saksi bisu awal pendirian kerajaan agung ini.",
+        "footnote": "Sumber: Pararaton, Kitab Usana Jawa"
+    },
+    {
+        "id": "jayanegara",
+        "type": "nyata",
+        "name": "Jayanegara",
+        "alias": "Raja Kedua Majapahit",
+        "era": "Raja Ke-2 Majapahit (1309–1328 M)",
+        "photo": "img/jayanegaraa.jpeg",
+        "quote": "Masa penuh gejolak, pondasi awal untuk keagungan yang akan datang.",
+        "description": "Putra Raden Wijaya. Pemerintahannya sering diwarnai pemberontakan, yang menguji stabilitas awal kerajaan.",
+        "fullStory": "Masa pemerintahan Jayanegara adalah periode konsolidasi yang sulit. Ia menghadapi beberapa pemberontakan dari bangsawan senior yang merasa diabaikan, seperti Pemberontakan Ranggalawe. Keberhasilan penumpasan ini, terutama oleh sosok seperti Gajah Mada, memperkuat struktur birokrasi dan militer Majapahit, meletakkan dasar bagi kejayaan di masa berikutnya.",
+        "footnote": "Sumber: Pararaton, Kidung Sorandaka"
+    },
+    {
+        "id": "tribhuwana",
+        "type": "nyata",
+        "name": "Ratu Tribhuwana",
+        "alias": "Ratu Bhre Kahuripan",
+        "era": "Ratu Majapahit (1328–1350 M)",
+        "photo": "img/tribhuwana.jpeg",
+        "quote": "Pemimpin wanita tangguh yang menunjuk Gajah Mada sebagai Mahapatih.",
+        "description": "Ibu dari Hayam Wuruk. Di bawah kepemimpinannya, ekspansi militer besar-besaran dimulai dan kekuasaan Majapahit mulai stabil.",
+        "fullStory": "Ratu Tribhuwana Wijayatunggadewi adalah tokoh kunci transisi menuju masa kejayaan. Keputusan paling krusialnya adalah penunjukan Gajah Mada sebagai Mahapatih, yang kemudian mengucapkan Sumpah Palapa. Ia memimpin pasukan dalam beberapa kampanye militer untuk mengamankan wilayah Jawa Timur sebelum menyerahkan tahta kepada putranya, Hayam Wuruk.",
+        "footnote": "Sumber: Negarakertagama, Kidung Sunda"
+    },
+    {
+        "id": "putricampa",
+        "type": "legenda",
+        "name": "Putri Campa",
+        "alias": "Kisah Cinta Majapahit",
+        "illustration": "img/putricampa.jpeg",
+        "description": "Kisah seorang putri dari Champa yang menikah dengan Raja Majapahit, Makamnya di Trowulan adalah situs ziarah populer.",
+        "fullStory": "Legenda Putri Campa melambangkan hubungan diplomatik dan budaya yang erat antara Majapahit dan Kerajaan Champa (Vietnam). Diyakini, ia adalah istri Raja Brawijaya (versi lain mengatakan Prabu Kertawijaya), dan kisahnya sering dikaitkan dengan masuknya pengaruh Islam yang lembut ke lingkungan istana. Makamnya menjadi simbol persahabatan antar bangsa dan toleransi budaya di masa Majapahit.",
+        "footnote": "Kisah turun temurun, Interpretasi Makam Troloyo"
+    },
+    {
+        "id": "tambakwringin",
+        "type": "legenda",
+        "name": "Tambak Wringin",
+        "alias": "Mitos Pelabuhan Tersembunyi",
+        "illustration": "img/tambakwringi.jpeg",
+        "description": "Mitos pangkalan kapal dan dermaga Majapahit di Sungai Brantas yang hilang di bawah lumpur.",
+        "fullStory": "Tambak Wringin dipercaya bukan sekadar dermaga, melainkan pelabuhan sungai terbesar yang menjadi pintu gerbang logistik dan perdagangan Majapahit. Lokasinya di sepanjang Brantas sangat strategis, menghubungkan ibu kota daratan Trowulan dengan jalur perdagangan laut di utara Jawa. Penemuan sisa-sisa struktur bata di sekitar aliran sungai menguatkan narasi mitos ini, menjadikannya bukti bahwa Mojokerto adalah pusat maritim pedalaman yang penting.",
+        "footnote": "Kisah Lokal, Data Arkeologi Sungai Brantas"
+    },
+    {
+        "id": "bajangratu",
+        "type": "legenda",
+        "name": "Candi Bajang Ratu",
+        "alias": "Mitos Gerbang Kerajaan",
+        "illustration": "img/bajangratu1.jpeg",
+        "description": "Gerbang megah yang konon dibangun untuk mengenang kisah raja yang 'Bajang' (muda) saat naik tahta.",
+        "fullStory": "Candi Bajang Ratu, atau 'Cacat Raja', sering dikaitkan dengan Raja Jayanegara yang naik takhta saat masih sangat muda. Konon, raja muda ini pernah mengalami 'cacat' atau kemalangan saat melewati gerbang ini. Gerbang ini adalah salah satu struktur paling terawat di Trowulan, menunjukkan arsitektur transisi yang indah dari masa Majapahit awal.",
+        "footnote": "Interpretasi Arkeologi, Kisah Rakyat Mojokerto"
+    },
+    {
+        "id": "sumpahsetia",
+        "type": "legenda",
+        "name": "Prasasti Sumpah Setia",
+        "alias": "Kekuatan Spiritual Majapahit",
+        "illustration": "img/prasasti.jpeg",
+        "description": "Mitos seputar kekuatan gaib prasasti kuno di Mojokerto yang mengikat kesetiaan para abdi dalem.",
+        "fullStory": "Meskipun tidak ada satu prasasti bernama 'Sumpah Setia', legenda ini merangkum keyakinan masyarakat Mojokerto tentang kekuatan spiritual artefak kuno. Dikatakan, setiap batu atau prasasti Majapahit di Trowulan memiliki energi yang mengikat para penguasa dan rakyatnya pada janji kesetiaan kepada kerajaan. Hal ini mencerminkan betapa pentingnya nilai spiritual dan kepatuhan dalam sistem kekuasaan Majapahit.",
+        "footnote": "Urban Legend Mojokerto, Studi Epigrafi"
+    },
+    {
+        "id": "celengan",
+        "type": "temuan",
+        "name": "Temuan Celengan Tanah Liat",
+        "deskripsi": "Berbagai bentuk celengan, menunjukkan kemakmuran ekonomi dan praktik tabungan masyarakat Majapahit. Celengan berbentuk babi hutan adalah yang paling ikonik.",
+        "tahun": "Ditemukan di Trowulan, Abad ke-14 - 15 M"
+    },
+    {
+        "id": "koinmas",
+        "type": "temuan",
+        "name": "Keping Koin Emas & Perak",
+        "deskripsi": "Penemuan koin dalam jumlah besar di sekitar Trowulan mengindikasikan Majapahit memiliki sistem moneter yang terintegrasi dan menjadi pusat perdagangan regional yang sangat aktif.",
+        "tahun": "Ditemukan di Trowulan, Abad ke-13 - 15 M"
+    },
+    {
+        "id": "keramik",
+        "type": "temuan",
+        "name": "Pecahan Keramik Asing",
+        "deskripsi": "Jutaan pecahan keramik dari Tiongkok, Vietnam, dan Thailand membuktikan hubungan dagang internasional Majapahit, memperkuat citra Mojokerto sebagai kota kosmopolitan.",
+        "tahun": "Ditemukan di Seluruh Situs Trowulan, Abad ke-14 M"
+    },
+    {
+        "id": "gantangan",
+        "type": "kronik",
+        "name": "Naskah Purna Waktu",
+        "deskripsi": "Naskah yang menyebutkan sistem pengukuran kuno seperti 'gantangan' dan 'tumbak' yang digunakan dalam administrasi tanah dan irigasi di era Majapahit.",
+        "sumber": "Dari koleksi Perpustakaan Nasional Indonesia"
+    },
+    {
+        "id": "sutasoma",
+        "type": "kronik",
+        "name": "Kakawin Sutasoma",
+        "deskripsi": "Ditulis oleh Mpu Tantular di masa Hayam Wuruk, memuat filosofi 'Bhinneka Tunggal Ika' yang menjadi dasar persatuan, menunjukkan toleransi beragama yang tinggi di Majapahit.",
+        "sumber": "Naskah Kuno Abad ke-14"
+    },
+    {
+        "id": "prasasti",
+        "type": "kronik",
+        "name": "Ragam Prasasti",
+        "deskripsi": "Berbagai prasasti seperti Kudadu dan Waringin Pitu, yang mencatat silsilah raja, penetapan desa, dan perayaan penting, memberikan gambaran kehidupan sosial-politik Trowulan.",
+        "sumber": "Artefak Batu dan Tembaga"
+    }
+]

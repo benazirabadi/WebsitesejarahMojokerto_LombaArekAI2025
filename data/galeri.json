@@ -1,0 +1,223 @@
+[
+    {
+      "id": "foto1",
+      "image": "img/canditikus.jpeg",
+      "alt": "Foto 1 Candi Tikus",
+      "title": "Candi Tikus (Awal)",
+      "caption": "Kolam pemandian suci yang ditemukan terkubur pada tahun 1914.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto2",
+      "image": "img/mjk.jpeg",
+      "alt": "Foto 2 Bajang Ratu",
+      "title": "Candi Bajang Ratu",
+      "caption": "Detail Gapura Paduraksa yang megah, peninggalan era Hayam Wuruk."
+    },
+    {
+      "id": "foto3",
+      "image": "img/segaran.jpeg",
+      "alt": "Foto 3 Kolam Segaran",
+      "title": "Kolam Segaran",
+      "caption": "Sisa kolam raksasa yang berfungsi untuk jamuan kerajaan."
+    },
+    {
+      "id": "foto4",
+      "image": "img/trowulan.jpeg",
+      "alt": "Foto 4 Relief Kuno",
+      "title": "Museum Trowulan",
+      "caption": "Koleksi artefak temuan Majapahit, termasuk kepala terakota."
+    },
+    {
+      "id": "foto5",
+      "image": "img/wringin.jpeg",
+      "alt": "Foto 5 Wringin Lawang",
+      "title": "Wringin Lawang (Lebar)",
+      "caption": "Gerbang bentar raksasa, pintu masuk utama ibu kota Majapahit.",
+      "span": ["w-2"]
+    },
+    {
+      "id": "foto6",
+      "image": "img/brahu.jpeg",
+      "alt": "Foto 6 Museum Trowulan",
+      "title": "Candi Brahu",
+      "caption": "Tempat upacara kremasi raja-raja Majapahit.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto7",
+      "image": "img/kedaton.jpeg",
+      "alt": "Foto 7 Patung Dewa",
+      "title": "Candi Kedaton",
+      "caption": "Reruntuhan bata merah yang diduga bagian dari kompleks istana kerajaan Majapahit."
+    },
+    {
+      "id": "foto8",
+      "image": "img/pendopo.jpeg",
+      "alt": "Foto 8 Gerabah Kuno",
+      "title": "Pendopo Agung Trowulan",
+      "caption": "Bangunan joglo yang menjadi pusat kegiatan budaya dan upacara Majapahit."
+    },
+    {
+      "id": "foto9",
+      "image": "img/alunalun.jpeg",
+      "alt": "Foto 9 Candi Brahu",
+      "title": "Alun-Alun Mojokerto",
+      "caption": "Pusat kota dan tempat bersejarah sejak masa kolonial, kini jadi tempat wisata dan kegiatan warga.",
+      "span": ["h-3"]
+    },
+    {
+      "id": "foto10",
+      "image": "img/jolotundo.jpeg",
+      "alt": "Foto 10 Bata Merah",
+      "title": "Candi Jolotundo",
+      "caption": "Pemandian suci dengan sumber air alami di lereng Gunung Penanggungan, masih digunakan sampai sekarang."
+    },
+    {
+      "id": "foto11",
+      "image": "img/sentonorejo.jpeg",
+      "alt": "Foto 11 Lanskap Trowulan",
+      "title": "Situs Sentonorejo",
+      "caption": "Lokasi ditemukannya struktur bata yang diduga bagian permukiman Majapahit.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto12",
+      "image": "img/jedong.jpeg",
+      "alt": "Foto 12 Kesenian",
+      "title": "Gapura Jedong",
+      "caption": "Gapura batu kuno dari masa Mataram Kuno di lereng Gunung Penanggungan."
+    },
+    {
+      "id": "foto13",
+      "image": "img/guru.jpeg",
+      "alt": "Foto 13 Pintu Gerbang",
+      "title": "Candi Guru",
+      "caption": "Candi Guru di lereng Gunung Penanggungan adalah situs candi kecil berbahan batu andesit yang merupakan bagian dari kompleks suci peninggalan Majapahit."
+    },
+    {
+      "id": "foto14",
+      "image": "img/troloyo.jpeg",
+      "alt": "Foto 14 Detail Arsitektur",
+      "title": "Makam Troloyo",
+      "caption": "Makam Islam kuno yang menjadi bukti awal masuknya Islam di masa Majapahit."
+    },
+    {
+      "id": "foto15",
+      "image": "img/prabu.jpeg",
+      "alt": "Foto 15 Panorama Segaran",
+      "title": "Petilasan Prabu Hayam Wuruk",
+      "caption": "Petilasan Prabu Hayam Wuruk adalah situs bersejarah yang diyakini sebagai tempat persinggahan Raja Hayam Wuruk saat memerintah Kerajaan Majapahit.",
+      "span": ["w-2", "h-2"]
+    },
+    {
+      "id": "foto16",
+      "image": "img/wayang.jpeg",
+      "alt": "Foto 16 Detail Candi Brahu",
+      "title": "Candi Wayang",
+      "caption": "Candi Wayang adalah candi berbentuk teras bertingkat di lereng Gunung Penanggungan yang menjadi bagian dari kompleks suci peninggalan Majapahit.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto17",
+      "image": "img/gubugw.jpeg",
+      "alt": "Foto 17 Terakota",
+      "title": "Museum Gubug Wayang",
+      "caption": "Museum di Mojokerto kota yang menyimpan koleksi wayang, gamelan, dan benda antik."
+    },
+    {
+      "id": "foto18",
+      "image": "img/raden.jpeg",
+      "alt": "Foto 18 Sudut Wringin Lawang",
+      "title": "Makam Raden Wijaya (Pendiri Majapahit)",
+      "caption": "Terletak di Desa Temon, dipercaya sebagai makam pendiri Kerajaan Majapahit."
+    },
+    {
+      "id": "foto19",
+      "image": "img/minak.jpeg",
+      "alt": "Foto 19 Reruntuhan",
+      "title": "Candi Minak Jinggo",
+      "caption": "Candi kecil di Trowulan dengan relief unik menggambarkan kisah pewayangan."
+    },
+    {
+      "id": "foto20",
+      "image": "img/budhatidur.jpeg",
+      "alt": "Foto 20 Petirtaan",
+      "title": "Patung Budha Tidur",
+      "caption": "Patung Buddha Tidur Mojokerto adalah patung Buddha berbaring raksasa yang menjadi ikon wisata religi dan budaya di Maha Vihara Mojopahit.",
+      "span": ["w-2"]
+    },
+    {
+      "id": "foto21",
+      "image": "img/carikk.jpeg",
+      "alt": "Foto 21 Jalan Masuk",
+      "title": "Candi Carik",
+      "caption": "Candi Carik adalah candi kecil di lereng Gunung Penanggungan yang tersisa dalam bentuk teras batu sederhana peninggalan Majapahit.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto22",
+      "image": "img/kendalisada.jpeg",
+      "alt": "Foto 22 Artefak Tembikar",
+      "title": "Candi Kendalisodo",
+      "caption": "Situs spiritual di Gunung Penanggungan yang sering digunakan untuk semedi."
+    },
+    {
+      "id": "foto23",
+      "image": "img/gentong.jpeg",
+      "alt": "Foto 23 Mata Uang",
+      "title": "Candi Gentong",
+      "caption": "Candi kecil di Trowulan dengan sisa bata merah peninggalan zaman klasik."
+    },
+    {
+      "id": "foto24",
+      "image": "img/watesumpak.jpeg",
+      "alt": "Foto 24 Sudut Museum",
+      "title": "Candi Watesumpak",
+      "caption": "Sisa bangunan kuno yang menggambarkan kemajuan arsitektur Majapahit."
+    },
+    {
+      "id": "foto25",
+      "image": "img/fragmen.jpeg",
+      "alt": "Foto 25 Candi Tikus Penuh",
+      "title": "Fragmen Gerabah, Tembikar dan Perhiasan Kuno",
+      "caption": "Fragmen gerabah, tembikar, dan perhiasan kuno di Mojokerto banyak ditemukan di kawasan Trowulan sebagai sisa aktivitas masyarakat Majapahit yang kini tersimpan di Museum Majapahit dan berbagai lokasi ekskavasi arkeologi.",
+      "span": ["h-2"]
+    },
+    {
+      "id": "foto26",
+      "image": "img/relief.jpeg",
+      "alt": "Foto 26 Panorama Wringin Lawang",
+      "title": "Relief Majapahit",
+      "caption": "Relief Majapahit sering ditemukan di situs Trowulan (Mojokerto), terutama di candi seperti Gapura Bajang Ratu.",
+      "span": ["w-2"]
+    },
+    {
+      "id": "foto27",
+      "image": "img/ageng.jpeg",
+      "alt": "Foto 27 Kepala Singa",
+      "title": "Makam Mbah Ageng Jabung",
+      "caption": "Candi Lurah adalah candi kecil di lereng Gunung Penanggungan yang berupa struktur teras batu peninggalan masa Majapahit."
+    },
+    {
+      "id": "foto28",
+      "image": "img/lantai.jpeg",
+      "alt": "Foto 28 Lanskap Segaran",
+      "title": "Situs Lantai Segi Enam",
+      "caption": "Situs Lantai Segi Enam adalah lantai ubin segi enam dan dinding bata di Trowulan yang diduga bagian rumah bangsawan Majapahit."
+    },
+    {
+      "id": "foto29",
+      "image": "img/petilasangajahmada.jpeg",
+      "alt": "Foto 29 Akhir Jejak",
+      "title": "Petilasan Gajah Mada",
+      "caption": "Petilasan Gajah Mada adalah situs sederhana yang dipercaya sebagai tempat persinggahan Mahapatih Gajah Mada di wilayah Trowulan."
+    },
+    {
+      "id": "foto30",
+      "image": "img/kepeng.jpeg",
+      "alt": "Foto 30 Penutup",
+      "title": "Mata Uang Kepeng Majapahit",
+      "caption": "Mata uang “kepeng” yang digunakan di Majapahit sebagian besar adalah koin Tiongkok dengan lubang kotak di tengah, diimpor dari Dinasti Cina"
+    }
+  ]

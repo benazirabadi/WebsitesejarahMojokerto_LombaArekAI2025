@@ -1,0 +1,13 @@
+{
+    "gallery": [
+      { "img": "mjk.jpeg", "cap": "Candi Tikus" },
+      { "img": "mjk.jpeg", "cap": "Bajang Ratu" },
+      { "img": "mjk.jpeg", "cap": "Relief Majapahit" }
+    ],
+    "vintage": [
+      { "img": "mjk.jpeg", "caption": "Sudut lama yang masih menyimpan kisah." },
+      { "img": "mjk.jpeg", "caption": "Detail arsitektur yang tak lekang oleh waktu." },
+      { "img": "mjk.jpeg", "caption": "Jejak sejarah di balik setiap batu." },
+      { "img": "mjk.jpeg", "caption": "Warna masa lalu yang tetap hidup." }
+    ]
+  }

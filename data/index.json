@@ -1,0 +1,94 @@
+{
+    "header": {
+      "title": "Warisan Majapahit: Jejak Sejarah di Bumi Mojokerto",
+      "subtitle": "Temukan kisah, situs arkeologi, dan karya seni peninggalan Kerajaan Majapahit.",
+      "cta_text": "Eksplorasi Warisan Populer",
+      "cta_link": "#featured",
+      "hero_image": "img/mjk.jpeg"
+    },
+    "about": {
+      "subtitle": "Menelusuri Jejak Kejayaan Majapahit di Bumi Mojokerto",
+      "heading": "Tentang Kami",
+      "content": "Mojokerto merupakan saksi bisu kejayaan Kerajaan Majapahit, pusat kebudayaan dan pemerintahan yang pernah mengukir sejarah besar di Nusantara. Melalui situs ini, kami berupaya menghadirkan kembali cerita-cerita masa lalu, mengenalkan warisan budaya, serta menginspirasi generasi muda untuk menjaga dan menghargai peninggalan leluhur.",
+      "image": "img/mjk.jpeg"
+    },
+    "timeline": {
+      "heading": "Linimasa Sejarah Mojokerto",
+      "events": [
+        {
+          "year": "1293",
+          "description": "Berdirinya Kerajaan Majapahit di wilayah Trowulan, yang menjadi awal kejayaan Mojokerto."
+        },
+        {
+          "year": "1350",
+          "description": "Puncak kejayaan Majapahit di bawah Hayam Wuruk dan Gajah Mada, pusat pemerintahan di Mojokerto."
+        },
+        {
+          "year": "1800-an",
+          "description": "Masa kolonial Belanda, banyak situs Majapahit mulai diteliti oleh arkeolog Barat."
+        },
+        {
+          "year": "1945",
+          "description": "Mojokerto resmi menjadi bagian dari Republik Indonesia setelah proklamasi kemerdekaan."
+        },
+        {
+          "year": "Sekarang",
+          "description": "Mojokerto menjadi pusat sejarah dan wisata budaya Jawa Timur dengan berbagai peninggalan Majapahit."
+        }
+      ]
+    },
+    "featured_sites": {
+      "heading": "Warisan Budaya Populer",
+      "sites": [
+        {
+          "name": "Candi Bajang Ratu",
+          "description": "Gerbang Paduraksa peninggalan Majapahit yang terkenal akan arsitektur megahnya.",
+          "image": "img/mjk.jpeg",
+          "link": "situs.html"
+        },
+        {
+          "name": "Kolam Segaran",
+          "description": "Kolam raksasa yang dulunya berfungsi sebagai tempat rekreasi raja dan upacara kerajaan.",
+          "image": "img/mjk.jpeg",
+          "link": "situs.html"
+        },
+        {
+          "name": "Candi Wringin Lawang",
+          "description": "Gerbang Candi Bentar yang diperkirakan sebagai pintu masuk utama ke ibukota Majapahit.",
+          "image": "img/mjk.jpeg",
+          "link": "situs.html"
+        }
+      ]
+    },
+   
+    "gallery": {
+      "heading": "Galeri Kenangan Majapahit",
+      "tagline": "Setiap sudut punya cerita. Eksplorasi peninggalan yang elegan.",
+      "items": [
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Gerbang Majapahit yang megah, peninggalan kuno."
+        },
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Detail relief Candi Tikus yang menawan."
+        },
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Kolam Segaran, saksi bisu kemakmuran Majapahit."
+        },
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Pemandangan Situs Trowulan dari kejauhan."
+        },
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Arca kuno dengan nilai sejarah tinggi."
+        },
+        {
+          "image": "img/mjk.jpeg",
+          "caption": "Sisa puing dan reruntuhan Kerajaan."
+        }
+      ]
+    }
+  }

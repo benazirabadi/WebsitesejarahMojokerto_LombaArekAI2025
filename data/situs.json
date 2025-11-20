@@ -1,0 +1,84 @@
+{
+    "situs_utama": [
+        {
+            "judul": "Candi Tikus",
+            "deskripsi_singkat": "Petirtaan suci (pemandian) yang ditemukan terkubur pada tahun 1914. Struktur unik yang melambangkan Gunung Mahameru, digunakan untuk upacara pensucian raja.",
+            "gambar_src": "img/ctikus.jpeg",
+            "gambar_alt": "Candi Tikus",
+            "kronik_title": "Candi Tikus: Petirtaan Raja",
+            "kronik_detail": "Candi Tikus adalah petirtaan dari abad ke-13/14 yang terletak di Desa Temon. Struktur ini meniru bentuk Mahameru, gunung suci dalam kosmologi Hindu-Buddha. Fungsinya diperkirakan sebagai tempat mandi dan ritual pensucian (abhiseka) raja dan keluarga kerajaan Majapahit. Ditemukan pada tahun 1914 dan dipugar pada tahun 1985-1989. Keunikan arsitekturnya menampilkan menara-menara kecil yang dikelilingi kolam."
+        },
+        {
+            "judul": "Gapura Bajang Ratu",
+            "deskripsi_singkat": "Gapura jenis Paduraksa yang megah. Diperkirakan dibangun sebagai gerbang kompleks suci atau monumen peringatan wafatnya Raja Jayanegara.",
+            "gambar_src": "img/bajangratu1.jpeg",
+            "gambar_alt": "Gapura Bajang Ratu",
+            "kronik_title": "Gapura Bajang Ratu: Monumen Jayanegara",
+            "kronik_detail": "Gapura Bajang Ratu, yang berarti 'Cacat/Kecil Raja', adalah gapura Paduraksa (beratap) yang indah. Ukiran dan reliefnya yang rumit mencerminkan puncak arsitektur Majapahit. Diperkirakan didirikan pada abad ke-14 untuk mengenang wafatnya Raja Jayanegara. Reliefnya menggambarkan cerita Sri Tanjung dan Ramayana. Struktur ini berfungsi sebagai pintu masuk utama ke sebuah kompleks bangunan suci di ibu kota."
+        },
+        {
+            "judul": "Kolam Segaran",
+            "deskripsi_singkat": "Kolam buatan Majapahit terbesar. Berfungsi sebagai penampungan air, irigasi, dan diduga sebagai tempat jamuan kenegaraan dengan perahu.",
+            "gambar_src": "img/segarann.jpeg",
+            "gambar_alt": "Kolam Segaran",
+            "kronik_title": "Kolam Segaran: Samudra Buatan",
+            "kronik_detail": "Kolam Segaran adalah kolam raksasa dengan ukuran 375m x 125m yang dibangun dari susunan bata merah. Nama 'Segaran' (seperti laut) menunjukkan ukurannya yang besar. Selain sebagai sumber irigasi dan penampungan air kota, kolam ini diduga menjadi tempat perayaan penting. Menurut beberapa ahli, Kolam Segaran digunakan sebagai tempat menjamu tamu kenegaraan di mana perabotan emas dan perak dibuang ke kolam setelah jamuan selesai untuk menunjukkan kemakmuran Majapahit."
+        },
+        {
+            "judul": "Gapura Wringin Lawang",
+            "deskripsi_singkat": "Gapura Bentar masif yang diperkirakan merupakan pintu gerbang pertama atau batas kompleks penting ibu kota. Simbol kemegahan arsitektur Majapahit.",
+            "gambar_src": "img/gapuraa.jpeg",
+            "gambar_alt": "Wringin Lawang",
+            "kronik_title": "Gapura Wringin Lawang: Gerbang Ibukota",
+            "kronik_detail": "Gapura Wringin Lawang adalah gapura jenis Candi Bentar (terbelah dua tanpa atap) yang sangat besar. Gapura ini diduga adalah pintu masuk utama ke kompleks kediaman Mahapatih Gajah Mada atau gerbang batas terluar menuju pusat ibukota Majapahit. Struktur ini mencerminkan teknik bangunan bata merah yang canggih pada periode Majapahit. Nama Wringin Lawang sendiri berarti 'Pintu Beringin', merujuk pada pohon beringin yang dulunya mungkin ada di sekitar lokasi."
+        },
+        {
+            "judul": "Candi Brahu",
+            "deskripsi_singkat": "Candi tertua di Trowulan yang terbuat dari bata merah. Diperkirakan menjadi tempat kremasi raja-raja awal Majapahit, termasuk Raden Wijaya.",
+            "gambar_src": "img/cbrahu.jpeg",
+            "gambar_alt": "Candi Brahu",
+            "kronik_title": "Candi Brahu: Kremasi Raja Awal",
+            "kronik_detail": "Candi Brahu adalah salah satu candi tertua di Trowulan dan unik karena bentuknya yang ramping dan tidak simetris. Berdasarkan Kitab Negarakertagama, di sinilah upacara pembakaran jenazah (kremasi) raja-raja awal Majapahit, termasuk Raden Wijaya, dilakukan. Bangunan bata merah ini memiliki tiga ruangan utama dan diperkirakan dibangun antara abad ke-13 dan ke-15. Nama 'Brahu' berasal dari kata 'Warahu' atau 'Waru' yang merupakan nama bangunan suci."
+        },
+        {
+            "judul": "Museum Majapahit",
+            "deskripsi_singkat": "Pusat koleksi ribuan artefak Majapahit, mulai dari terakota, patung, keramik Cina, hingga koin Gobog. Pintu gerbang untuk studi sejarah.",
+            "gambar_src": "img/museummajapahit.jpeg",
+            "gambar_alt": "Museum Trowulan",
+            "kronik_title": "Museum Majapahit: Gudang Artefak",
+            "kronik_detail": "Museum Majapahit (atau Museum Trowulan) adalah pusat penyimpanan dan pameran utama artefak yang ditemukan di kawasan bekas ibu kota Majapahit. Koleksinya sangat kaya, mencakup berbagai benda dari terakota (seperti celengan, topeng, figur), logam, dan keramik. Museum ini penting untuk memahami kehidupan sehari-hari, ekonomi, dan seni rupa di masa Majapahit, dan merupakan titik awal bagi setiap peneliti atau pengunjung Trowulan."
+        }
+    ],
+    "fakta_arkeologi": [
+        {
+            "ikon_class": "fas fa-hammer",
+            "judul": "Situs Pengrajin",
+            "deskripsi": "Trowulan dikenal sebagai pusat industri kuno, dengan penemuan banyak bukti produksi kerajinan gerabah, logam, hingga uang kepeng."
+        },
+        {
+            "ikon_class": "fas fa-book-open",
+            "judul": "Kitab Negarakertagama",
+            "deskripsi": "Mojokerto adalah tempat yang dijelaskan secara rinci dalam naskah kuno ini, menggambarkan kemegahan ibu kota Majapahit."
+        },
+        {
+            "ikon_class": "fas fa-mountain",
+            "judul": "Gunung Penanggungan",
+            "deskripsi": "Gunung suci bagi Majapahit. Diperkirakan terdapat ratusan candi dan petirtaan di lerengnya, menjadikannya 'Mini Semeru' purba."
+        },
+        {
+            "ikon_class": "fas fa-coins",
+            "judul": "Mata Uang Gobog",
+            "deskripsi": "Ditemukan banyak koin tembaga yang disebut Gobog Majapahit, menunjukkan sistem moneter yang maju dan perdagangan yang intensif."
+        },
+        {
+            "ikon_class": "fas fa-house-damage",
+            "judul": "Struktur Bata Merah",
+            "deskripsi": "Sebagian besar bangunan Majapahit di Mojokerto menggunakan bata merah berkualitas tinggi, menandakan kemahiran teknik bangunan pada masanya."
+        },
+        {
+            "ikon_class": "fas fa-chess-rook",
+            "judul": "Jejak Benteng Belanda",
+            "deskripsi": "Sisa-sisa bangunan kolonial seperti jembatan dan gudang masih ada, berfungsi sebagai saksi sejarah era perkebunan dan militer Belanda."
+        }
+    ]
+}

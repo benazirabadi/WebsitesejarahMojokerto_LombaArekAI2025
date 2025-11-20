@@ -1,0 +1,97 @@
+[
+    {
+      "category": "adat",
+      "id": "ruwatan",
+      "icon": "fas fa-hand-holding-water",
+      "name": "Upacara Ruwatan Murwokolo",
+      "description": "Ritual pensucian diri dari nasib buruk (sukerta) yang melibatkan pergelaran Wayang Kulit dengan lakon khusus, simbolisasi pembersihan energi negatif."
+    },
+    {
+      "category": "adat",
+      "id": "grebeg",
+      "icon": "fas fa-gopuram",
+      "name": "Grebeg Trowulan",
+      "description": "Festival budaya tahunan yang berpusat di Trowulan, menampilkan pawai kirab pusaka dan hasil bumi sebagai wujud syukur dan penghormatan pada leluhur Majapahit."
+    },
+    {
+      "category": "adat",
+      "id": "larung",
+      "icon": "fas fa-water",
+      "name": "Larung Sesaji",
+      "description": "Ritual persembahan yang dilakukan di sungai atau waduk, seperti di Waduk Widas, sebagai bentuk penghormatan kepada roh penjaga air dan memohon keselamatan hasil panen."
+    },
+    {
+      "category": "adat",
+      "id": "bersihdesa",
+      "icon": "fas fa-seedling",
+      "name": "Bersih Desa",
+      "description": "Upacara adat yang dilakukan untuk membersihkan desa dari segala bentuk bencana dan kesialan, biasanya dirayakan dengan pertunjukan seni lokal dan kenduri massal."
+    },
+    {
+      "category": "kesenian",
+      "id": "wayangtopeng",
+      "icon": "fas fa-mask",
+      "name": "Wayang Kulit & Topeng",
+      "description": "Seni pertunjukan klasik yang menceritakan epos Hindu-Jawa. Di Mojokerto, gaya pewayangan kental dengan *corak Majapahitan* yang sederhana namun sarat makna filosofis."
+    },
+    {
+      "category": "kesenian",
+      "id": "gamelan",
+      "icon": "fas fa-drum",
+      "name": "Gamelan Pelog-Slendro",
+      "description": "Alat musik tradisional yang dimainkan dalam ritual dan pertunjukan. Beberapa set gamelan di Mojokerto dipercaya memiliki laras kuno yang mencerminkan harmoni musik keraton Majapahit."
+    },
+    {
+      "category": "kesenian",
+      "id": "ludruk",
+      "icon": "fas fa-hat-cowboy",
+      "name": "Ludruk & Jula-Juli",
+      "description": "Drama rakyat Jawa Timur yang populer, sering menyisipkan pesan moral dan kritik sosial. Dilengkapi dengan iringan musik gamelan dan tembang *Jula-Juli* yang khas Mojokertoan."
+    },
+    {
+      "category": "warisan",
+      "id": "batiktrowulan",
+      "image": "img/batik.jpeg",
+      "placeholder": "Batik Majapahit",
+      "name": "Batik Trowulan",
+      "description": "Motif batik yang terinspirasi dari relief Candi dan penemuan artefak di Trowulan, seperti motif Surya Majapahit, Padi, dan Teratai. Batik ini memvisualisasikan simbol-simbol kerajaan."
+    },
+    {
+      "category": "warisan",
+      "id": "ukiranbata",
+      "image": "img/bata.jpeg",
+      "placeholder": "Ukiran Bata Merah",
+      "name": "Ukiran Bata Merah",
+      "description": "Keahlian membuat ukiran dan replika struktur menggunakan bata merah khas Majapahit. Tradisi ini menjaga warisan arsitektur kuno dan menjadi mata pencaharian utama perajin lokal."
+    },
+    {
+      "category": "warisan",
+      "id": "moksaetnik",
+      "image": "img/moksa.jpeg",
+      "placeholder": "Moksa Musik Etnik",
+      "name": "Moksa Musik Etnik",
+      "description": "Genre musik yang memadukan instrumen tradisional Jawa (Gamelan, Siter) dengan aransemen modern, menciptakan suara baru yang berakar kuat pada kearifan lokal."
+    },
+    {
+      "category": "warisan",
+      "id": "gerabah",
+      "image": "img/gerabah.jpeg",
+      "placeholder": "Kerajinan Gerabah",
+      "name": "Kerajinan Gerabah",
+      "description": "Pembuatan gerabah dan terakota dengan teknik kuno yang diwariskan dari era Majapahit, menghasilkan replika arca dan peralatan rumah tangga bernilai sejarah tinggi."
+    },
+    {
+      "category": "filosofi",
+      "id": "basuki",
+      "name": "Jer basuki mawa bea",
+      "translation": "Setiap keberhasilan membutuhkan pengorbanan.",
+      "meaning": "Filosofi ini mengajarkan *etos kerja keras* dan *tanggung jawab* sebagai penerus semangat membangun Majapahit."
+    },
+    {
+      "category": "filosofi",
+      "id": "dumeh",
+      "name": "Aja dumeh",
+      "translation": "Jangan mentang-mentang/sombong.",
+      "meaning": "Sebuah ajaran luhur tentang kerendahan hati dan pentingnya menjaga keseimbangan diri."
+    }
+  ]

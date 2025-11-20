@@ -1,0 +1,45 @@
+{
+    "sejarah_zigzag": [
+        {
+            "id": "awal",
+            "tahun": "Pra-Abad ke-13",
+            "judul": "Latar Belakang & Etimologi Nama",
+            "deskripsi": "Wilayah Mojokerto, terutama di kaki Gunung Penanggungan, telah menjadi lokasi pemukiman penting jauh sebelum Majapahit berdiri. Letaknya yang dekat dengan hulu Sungai Brantas menjadikannya wilayah pertanian yang subur dan jalur perdagangan yang vital. Nama “Mojokerto” sendiri dipercaya berasal dari kata **Maja** (nama buah) dan **Kerta** (kemakmuran), melambangkan harapan akan kota yang makmur dan tenteram.",
+            "gambar": "mjk.jpg",
+            "alt": "Pegunungan Penanggungan dan Pemukiman Kuno"
+        },
+        {
+            "id": "majapahit",
+            "tahun": "1293 – 1478 M",
+            "judul": "Pusat Kerajaan Terbesar Nusantara",
+            "deskripsi": "Trowulan, yang kini berada di wilayah Mojokerto, merupakan ibu kota **Kerajaan Majapahit** yang didirikan oleh Raden Wijaya. Di bawah kepemimpinan Raja Hayam Wuruk dan Patih Gajah Mada, Majapahit mencapai puncak kejayaan dengan wilayah kekuasaan yang hampir mencakup seluruh Nusantara. Situs-situs di Trowulan, seperti Candi Bajang Ratu dan Candi Tikus, menjadi bukti monumental kejayaan arsitektur dan peradaban masa itu.",
+            "gambar": "mjk.jpg",
+            "alt": "Situs Trowulan"
+        }
+       
+    ],
+    "timeline_rangkuman": [
+        {
+            "tahun_detail": "± Abad ke-10 M - Prasasti & Kerajaan Awal",
+            "keterangan": "Penemuan prasasti di sekitar Mojokerto menunjukkan wilayah ini telah dihuni dan menjadi bagian penting dari kerajaan-kerajaan Mataram Kuno di Jawa Timur."
+        },
+        {
+            "tahun_detail": "± 1293 M - Pendirian Majapahit",
+            "keterangan": "Raden Wijaya mendirikan Kerajaan Majapahit setelah runtuhnya Singasari. Trowulan ditetapkan sebagai ibu kota kerajaan."
+        }
+      
+    ],
+    "fakta_arkeologi": [
+        {
+            "ikon": "fas fa-hammer",
+            "judul": "Situs Pengrajin",
+            "deskripsi": "Trowulan dikenal sebagai pusat industri kuno, dengan penemuan banyak bukti produksi kerajinan gerabah, logam, hingga uang kepeng."
+        },
+        {
+            "ikon": "fas fa-archway",
+            "judul": "Candi Bajang Ratu",
+            "deskripsi": "Candi ini berfungsi sebagai pintu gerbang (gapura) Keraton yang digunakan untuk menyambut kepulangan Raja Hayam Wuruk dari Pararaton."
+        }
+       
+    ]
+}
